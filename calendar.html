@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        >
+        <title>Document</title>
+    </head>
+    <body>
+
+        <style>
+    #calendar {
+      width: 336px;
+      height: 240px;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(5, 48px);
+    }
+  </style>
+
+        <div>
+            <button id="left">left</button>
+            <span id="month"></span>
+            <button id="right">right</button>
+        </div>
+        <div id="calendar"></div>
+
+        <table>
+            <!-- <tbody>
+                <tr>
+                    <th>Пн</th>
+                    <th>Вт</th>
+                    <th>Ср</th>
+                    <th>Чт</th>
+                    <th>Пт</th>
+                    <th>Сб</th>
+                    <th>Вс</th>
+                </tr>
+
+            </tbody> -->
+        </table>
+
+        <script src="calendar.js"></script>
+    </body>
+</html>
